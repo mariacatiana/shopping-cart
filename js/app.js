@@ -3,17 +3,16 @@ function add(params) {
 let product = document.getElementById('product').value;
 let nameProduct = product.split ('-') [0];
 let unitaryValue = product.split('€')[1]
-let quantity = document.getElementById('quantity');
-alert(nameProduct);
-alert(unitaryValue);
-alert(quantity.value);
-let price = quantity.value * unitaryValue;
-alert(price);
-
-
-
-    //calculate price and subtotal
-    //Add to Cart
+let quantity = document.getElementById('quantity').value;
+//calculate price and subtotal
+let price = quantity * unitaryValue;
+let cart = document.getElementById('product-list');
+//Add to Cart
+cart.innerHTML = cart.innerHTML + `<section class="cart__products__product">
+<span class="blue-text">${quantity}x</span> ${nameProduct} <span class="blue-text">${price}</span>
+</section>`;
+    
+    
     //update the total purchase amount
 }
 function clean(params) {
