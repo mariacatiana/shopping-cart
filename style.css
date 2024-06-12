@@ -37,7 +37,7 @@ input[type="number"] {
     appearance: textfield;
 }
 
-.texto-medio-azul {
+.medium-blue-text {
   color: var(--Light-Blue, #1875E8);
   font-size: 1.5rem;
   font-style: normal;
@@ -45,7 +45,7 @@ input[type="number"] {
   line-height: 110%; /* 1.65rem */
 }
 
-.conteudo-principal {
+.main-content {
   filter: drop-shadow(0px 0px 70px rgba(2, 189, 255, 0.40));
   min-height: 100%;
   padding: 5rem 6.5rem;
@@ -61,7 +61,7 @@ input[type="number"] {
   background-position: left bottom -40px;
 }
 
-.grafismo-azul {
+.blue-graphics {
   position: absolute;
   width: 31.9375rem;
   height: 2.0625rem;
@@ -69,7 +69,7 @@ input[type="number"] {
   top: -1rem;
 }
 
-.titulo {
+.title {
   font-family: 'Chakra Petch', sans-serif;
   font-size: 5rem;
   font-style: normal;
@@ -78,25 +78,25 @@ input[type="number"] {
   margin-bottom: 2.5rem;
 }
 
-.texto-azul {
+.blue-text {
   color: #1875E8;
 }
 
-.formulario {
+.form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1.5rem;
 }
 
-.formulario .campo-grupo {
+.form .field-group {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
 }
 
-.produto-input {
+.product-input {
   width: 24.75rem;
   height: 3.5rem;
   padding: 1rem;
@@ -125,13 +125,13 @@ input[type="number"] {
   cursor: pointer;
 }
 
-.formulario > .parte-inferior {
+.form > .bottom {
   display: flex;
   align-items: flex-end;
   gap: 2rem;
 }
 
-.quantidade-input {
+.quantity-input {
   display: flex;
   height: 3.5rem;
   padding: 1rem;
@@ -147,13 +147,13 @@ input[type="number"] {
   line-height: 110%;
 }
 
-.botoes-wrapper {
+.buttons-wrapper {
   display: flex;
   align-items: flex-end;
   gap: 1rem;
 }
 
-.botao-form {
+.button-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,7 +166,7 @@ input[type="number"] {
   cursor: pointer;
 }
 
-.botao-adicionar {
+.button-add {
   background: var(--Light-Blue, #1875E8);
   box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
 
@@ -176,7 +176,7 @@ input[type="number"] {
   line-height: normal;
 }
 
-.botao-limpar {
+.button-clean {
   border-radius: 1rem;
   background: var(--Void, #01080E);
   box-shadow: 0px 0px 20px 0px rgba(1, 8, 14, 0.50);
@@ -187,7 +187,7 @@ input[type="number"] {
   line-height: normal;
 }
 
-.carrinho {
+.cart {
   display: flex;
   width: 24rem;
   flex-direction: column;
@@ -195,13 +195,13 @@ input[type="number"] {
   gap: 2rem;
 }
 
-.titulo-wrapper {
+.title-wrapper {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.carrinho__titulo {
+.cart__title {
   color: var(--Light-Blue, #1875E8);
   font-family: Inter;
   font-size: 1.5rem;
@@ -210,32 +210,32 @@ input[type="number"] {
   line-height: 110%; /* 1.65rem */
 }
 
-.carrinho__produtos {
+.cart__products {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
 }
 
-.carrinho__produtos__produto {
+.cart__products__product {
   font-size: 1.3125rem;
   font-style: italic;
   font-weight: 400;
   line-height: 110%; /* 1.44375rem */
 }
 
-.divisoria {
+.divider {
   width: 24rem;
   height: 0.0625rem;
   background: #000;
 }
 
-.carrinho__total {
+.cart__total {
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 110%; /* 2.475rem */
 }
 
-.adicionar-produto {
+.add-product {
   padding-bottom: 180px;
 }
